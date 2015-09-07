@@ -26,8 +26,6 @@ $scope.me = window.SAILS_LOCALS.me;
 
   $scope.saveAdmin = function(id, change){
 
-    console.log('id: ', id);
-    console.log('change: ', change);
     var theRoute = '/user/updateAdmin/' + id;
 
     // Submit PUT request to Sails.
@@ -59,8 +57,6 @@ $scope.me = window.SAILS_LOCALS.me;
 
   $scope.saveBanned = function(id, change){
 
-    console.log('id: ', id);
-    console.log('change: ', change);
     var theRoute = '/user/updateBanned/' + id;
 
     // Submit PUT request to Sails.
@@ -94,8 +90,6 @@ $scope.me = window.SAILS_LOCALS.me;
 
   $scope.saveDeleted = function(id, change){
 
-    console.log('id: ', id);
-    console.log('change: ', change);
     var theRoute = '/user/updateDeleted/' + id;
 
     // Submit PUT request to Sails.
